@@ -1,0 +1,132 @@
+
+  
+  .c1 {
+    margin-top: 85px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('R.jpeg'); /* Set a background color for the entire page */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+  float: inline-end;
+  list-style-type: none;
+  padding: 0;
+  margin-top: -30px; /* Remove default margin */
+}
+
+nav ul li {
+  
+  display: inline-block;
+  margin-left: 20px; /* Adjust spacing between navbar items */
+}
+
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin for the first navbar item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('rain_forest_2.jpg'); /* Set the background image for the hero section */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+img{
+  height: 45px;
+  width: 60px;
+}
+.btn {
+  margin-top: 30px;
+  margin-left: 620px;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+.btn1 {
+  margin-top: 30px;
+  
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #555;
+}
+/* Existing CSS styles */
+
+.contact-info {
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Existing CSS styles */
+
+.contact-info, .social-media {
+  margin-bottom: 40px;
+}
+
+.contact-info h2, .social-media h2 {
+  margin-bottom: 10px;
+}
